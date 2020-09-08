@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+test {
+    useJUnitPlatform()
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile("org.junit.jupiter:junit-jupiter-api:5.4.2")
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '3.5.5'
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.4.2")
+}

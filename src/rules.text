@@ -1,0 +1,12 @@
+few rules while coding
+	-> avoid if conditions or branching
+	-> fail fast
+	-> no mutation*
+	-> declarative
+	-> functional as much as possible
+	-> dry
+	-> solid
+	-> tdd
+	-> yagni
+	-> name should be descriptive
+	-> code should be like a joke: you should not need to explain it
